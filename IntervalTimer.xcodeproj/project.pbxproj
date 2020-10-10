@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CB402AE25320D6A00433162 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB402AD25320D6A00433162 /* MainPageViewController.swift */; };
+		6CB402BA2532330800433162 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB402B92532330800433162 /* CoreDataManager.swift */; };
+		6CB402BF2532332700433162 /* CoreDataManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB402BE2532332700433162 /* CoreDataManagerImpl.swift */; };
+		6CB402CC253239B200433162 /* AddTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB402CB253239B200433162 /* AddTrainingViewController.swift */; };
+		6CB402D52532457E00433162 /* TemplatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB402D42532457E00433162 /* TemplatesListViewController.swift */; };
 		6CD15F372531EB4200AA7D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F362531EB4200AA7D2D /* AppDelegate.swift */; };
 		6CD15F392531EB4200AA7D2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F382531EB4200AA7D2D /* SceneDelegate.swift */; };
-		6CD15F3B2531EB4200AA7D2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F3A2531EB4200AA7D2D /* ViewController.swift */; };
 		6CD15F3E2531EB4200AA7D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD15F3C2531EB4200AA7D2D /* Main.storyboard */; };
 		6CD15F412531EB4200AA7D2D /* IntervalTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F3F2531EB4200AA7D2D /* IntervalTimer.xcdatamodeld */; };
 		6CD15F432531EB4400AA7D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD15F422531EB4400AA7D2D /* Assets.xcassets */; };
 		6CD15F462531EB4400AA7D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD15F442531EB4400AA7D2D /* LaunchScreen.storyboard */; };
 		6CD15F512531EB4400AA7D2D /* IntervalTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F502531EB4400AA7D2D /* IntervalTimerTests.swift */; };
 		6CD15F5C2531EB4400AA7D2D /* IntervalTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F5B2531EB4400AA7D2D /* IntervalTimerUITests.swift */; };
+		6CD15F782531F04000AA7D2D /* MainPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD15F772531F04000AA7D2D /* MainPageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CB402AD25320D6A00433162 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		6CB402B92532330800433162 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6CB402BE2532332700433162 /* CoreDataManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerImpl.swift; sourceTree = "<group>"; };
+		6CB402CB253239B200433162 /* AddTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainingViewController.swift; sourceTree = "<group>"; };
+		6CB402D42532457E00433162 /* TemplatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesListViewController.swift; sourceTree = "<group>"; };
 		6CD15F332531EB4200AA7D2D /* IntervalTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntervalTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD15F362531EB4200AA7D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CD15F382531EB4200AA7D2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CD15F3A2531EB4200AA7D2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CD15F3D2531EB4200AA7D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD15F402531EB4200AA7D2D /* IntervalTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntervalTimer.xcdatamodel; sourceTree = "<group>"; };
 		6CD15F422531EB4400AA7D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		6CD15F572531EB4400AA7D2D /* IntervalTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntervalTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD15F5B2531EB4400AA7D2D /* IntervalTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTimerUITests.swift; sourceTree = "<group>"; };
 		6CD15F5D2531EB4400AA7D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD15F772531F04000AA7D2D /* MainPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CB402C32532387200433162 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6CB402B92532330800433162 /* CoreDataManager.swift */,
+				6CB402BE2532332700433162 /* CoreDataManagerImpl.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6CB402C42532388100433162 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				6CB402AD25320D6A00433162 /* MainPageViewController.swift */,
+				6CD15F772531F04000AA7D2D /* MainPageTableViewCell.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		6CB402D0253239BC00433162 /* AddTraining */ = {
+			isa = PBXGroup;
+			children = (
+				6CB402CB253239B200433162 /* AddTrainingViewController.swift */,
+			);
+			path = AddTraining;
+			sourceTree = "<group>";
+		};
+		6CB402D92532458400433162 /* TemplatesList */ = {
+			isa = PBXGroup;
+			children = (
+				6CB402D42532457E00433162 /* TemplatesListViewController.swift */,
+			);
+			path = TemplatesList;
+			sourceTree = "<group>";
+		};
 		6CD15F2A2531EB4200AA7D2D = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +147,12 @@
 			children = (
 				6CD15F362531EB4200AA7D2D /* AppDelegate.swift */,
 				6CD15F382531EB4200AA7D2D /* SceneDelegate.swift */,
-				6CD15F3A2531EB4200AA7D2D /* ViewController.swift */,
-				6CD15F3C2531EB4200AA7D2D /* Main.storyboard */,
+				6CB402C42532388100433162 /* MainPage */,
+				6CB402D0253239BC00433162 /* AddTraining */,
+				6CB402D92532458400433162 /* TemplatesList */,
+				6CB402C32532387200433162 /* CoreData */,
 				6CD15F422531EB4400AA7D2D /* Assets.xcassets */,
+				6CD15F3C2531EB4200AA7D2D /* Main.storyboard */,
 				6CD15F442531EB4400AA7D2D /* LaunchScreen.storyboard */,
 				6CD15F472531EB4400AA7D2D /* Info.plist */,
 				6CD15F3F2531EB4200AA7D2D /* IntervalTimer.xcdatamodeld */,
@@ -261,10 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB402BA2532330800433162 /* CoreDataManager.swift in Sources */,
+				6CB402AE25320D6A00433162 /* MainPageViewController.swift in Sources */,
 				6CD15F412531EB4200AA7D2D /* IntervalTimer.xcdatamodeld in Sources */,
-				6CD15F3B2531EB4200AA7D2D /* ViewController.swift in Sources */,
 				6CD15F372531EB4200AA7D2D /* AppDelegate.swift in Sources */,
+				6CD15F782531F04000AA7D2D /* MainPageTableViewCell.swift in Sources */,
+				6CB402D52532457E00433162 /* TemplatesListViewController.swift in Sources */,
 				6CD15F392531EB4200AA7D2D /* SceneDelegate.swift in Sources */,
+				6CB402CC253239B200433162 /* AddTrainingViewController.swift in Sources */,
+				6CB402BF2532332700433162 /* CoreDataManagerImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
